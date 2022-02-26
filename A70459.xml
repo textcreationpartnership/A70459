@@ -1,0 +1,525 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached before the Lord Mayor and Court of Aldermen, at the Guildhall-Chapel on the fifth of February 1681/2 by J. Lambe ...</title>
+            <author>Lambe, John, 1648 or 9-1708.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 66 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A70459</idno>
+            <idno type="STC">Wing L221</idno>
+            <idno type="STC">ESTC R17540</idno>
+            <idno type="EEBO-CITATION">12866262</idno>
+            <idno type="OCLC">ocm 12866262</idno>
+            <idno type="VID">94734</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A70459)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 94734)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 985:33)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached before the Lord Mayor and Court of Aldermen, at the Guildhall-Chapel on the fifth of February 1681/2 by J. Lambe ...</title>
+                  <author>Lambe, John, 1648 or 9-1708.</author>
+               </titleStmt>
+               <extent>[4], 44 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Walter Kettilby ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Union Theological Seminary Library, New York.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-05</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-05</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:94734:1" rendition="simple:additions"/>
+            <p>A SERMON Preached, before the Lord Mayor And COURT of ALDERMEN, AT THE <hi>G<g ref="char:V">Ʋ</g>ILDHALL-CHAPEL;</hi> On the Fifth of <hi>February,</hi> 1681/2.</p>
+            <p>By <hi>J. LAMBE,</hi> M.A. One of His Majeſties Chaplains in Ordinary.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Walter Kettilby</hi> at the Biſhops-Head in St. <hi>Pauls</hi> Church-yard, 1682.</p>
+         </div>
+         <div type="imprimatur">
+            <pb facs="tcp:94734:2"/>
+            <head>
+               <hi>Moore Mayor,</hi> Jovis nono die Februarii <hi>1681/2.</hi> Anno<expan>
+                  <am>
+                     <g ref="char:abque"/>
+                  </am>
+                  <ex>que</ex>
+               </expan> Regis <hi>Carol.</hi> Secund. Angl. <hi>&amp;c. 34<hi rend="sup">o.</hi>
+               </hi>
+            </head>
+            <p>UPon the motion of Sir <hi>John Lawrence</hi> Knight and Alderman, This Court doth deſire Mr. <hi>Lambe</hi> to Print his Sermon Preached at the <hi>Guild-hall Chapel</hi> on <hi>Sunday</hi> Morning laſt before the Lord-Mayor, and Aldermen of this City.</p>
+            <closer>
+               <signed>WAGSTAFFE.</signed>
+            </closer>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:94734:2"/>
+            <head>TO The Right Honourable S<hi rend="sup">r</hi> John Moore, K<hi rend="sup">t.</hi> LORD MAYOR, And to the Right Worſhipfull Sir <hi>JOHN LAWRENCE,</hi> Knight and Alderman, AND To the reſt of the Right Worſhipfull Aldermen of the City of LONDON.</head>
+            <opener>
+               <salute>My LORD,</salute>
+            </opener>
+            <p>IN the following Sermon, Preached before Your Lordſhip, I have conſidered the Condition of man under ſome of the Principal circumſtan<g ref="char:EOLhyphen"/>ces of this preſent life, and have endeavoured from thence to State the Notion of his Happineſs: to Prove the Poſſibility of Attaining it; and to
+<pb facs="tcp:94734:3"/>direct to the means and Methods by which it may be acquired. This indeed is an Argument of the Greateſt Weight, of general Concernment, hard to be explained and frequently miſtaken. But coming after ſo many great Philoſophers and Learned men of all Ages, who have conſidered this Subject, and tranſmitted their thoughts up<g ref="char:EOLhyphen"/>on it, I cannot reaſonably hope, to have added any thing that was not obſerved before, or Il<g ref="char:EOLhyphen"/>luſtrated any thing that was obſcure. Yet in Obedience to Your Lordſhip's Order, and in hope that the conſideration of our <hi>common,</hi> as well as our greateſt good, which the practice of our Religion will beſtow upon us, may ſomewhat con<g ref="char:EOLhyphen"/>duce to compoſe the diſtractions, and allay the animoſities which <hi>Particular</hi> reſpects, <hi>Private</hi> intereſts and parties of Religion have raiſed a<g ref="char:EOLhyphen"/>mong us; therefore, under Your Lordſhip's Pa<g ref="char:EOLhyphen"/>tronage, I have Preſumed to make my Sermon Publick, who am</p>
+            <closer>
+               <salute>My <hi>LORD,</hi>
+               </salute>
+               <signed>Your Lordſhip's Moſt Humble and Moſt Obedient Servant <hi>J. Lambe.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:94734:3"/>
+            <epigraph>
+               <q>
+                  <bibl>PSALM CXIX. 165.</bibl> Great peace have they that love thy Law.—</q>
+            </epigraph>
+            <p>WE judge of the Excellency of beings by the Perfection of their forms, the Freedom of their motions, and the undiſturb'd exerciſe of their proper Powers. In proportion therefore the Happineſs of a reaſonable creature is meaſured by the Liberty of his Mind, the equal Government of his Soul, the Authority of his Reaſon, the proper uſe, but due ſubjection of his inferior Faculties. And whereſoever this order is interrupted,<note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>. Arria. in Epict.</note> whereſoever paſſion and ſelf-will, Uſurp the Dominion of our underſtanding; there muſt be Sick<g ref="char:EOLhyphen"/>neſs, Strife, Diſtraction, and all the violent effects of Eccentrick motions and inteſtine Warrs.</p>
+            <pb n="2" facs="tcp:94734:4"/>
+            <p>But this is the miſerable State of the generality of men! Inferiour objects, grateful to ſenſe, continually preſent, and eaſily enjoyed, Subdue our affections, with<g ref="char:EOLhyphen"/>draw our obedience, undermine the Go<g ref="char:EOLhyphen"/>vernment of reaſon, and ſubject us to the Tyranny of boundleſs will and paſſion. And thus we are inſlaved to ſenſe,<note place="margin">Jam 1.8. Job. 5.2. Pro. 24.28.</note> moved by inconſtant Principles, govern'd by vi<g ref="char:EOLhyphen"/>olence and contradictions, acted by furi<g ref="char:EOLhyphen"/>ous uncertain imaginations of our fancy. Our Nature is forced, our conſtitution corrupted, the mind reſtleſs, the heart faint, <hi>from the Sole of the foot to the Crown of the head, there is no ſound part in us.</hi>
+            </p>
+            <p>Would we therefore be healed of theſe infirmities? would we be reſtored to our Original health, ſerenity and eaſe? Would we be delivered from the power of paſſion, and all the vexations which ariſe from a fooliſh extemporary way of life? We muſt then return to our Duty and Allegiance, reſtrain this Brutiſh liberty, conform to rules of Government, and finally reſolve our will into theſe Laws and limits which Infinite Wiſedom and Goodneſs have pre<g ref="char:EOLhyphen"/>ſcribed. Then ſhall our broken bones be healed, then every part ſhall be re-inſtated
+<pb n="3" facs="tcp:94734:4"/>in its proper place, our lives ſhall be ſted<g ref="char:EOLhyphen"/>dy, our motions orderly, our deſires regu<g ref="char:EOLhyphen"/>lar, our ends conſonant, our wills obedi<g ref="char:EOLhyphen"/>ent, and our whole ſelves throughly cheer<g ref="char:EOLhyphen"/>ful and contented; according to the ex<g ref="char:EOLhyphen"/>perience of the Pſalmiſt in this Pathetick declaration of my text, <hi>Great peace have they that Love thy Law.</hi>
+            </p>
+            <p>In the handling of theſe words I ſhall breifly conſider theſe Four things;</p>
+            <list>
+               <item>
+                  <hi>Firſt, what is meant by the Law of God, and when a man may be ſaid to love it.</hi>
+               </item>
+               <item>
+                  <hi>Secondly, what we are to underſtand by Peace, which the Pſalmiſt joyns with the love of the Law of God, as an inſeparable adjunct or effect thereof.</hi>
+               </item>
+               <item>
+                  <hi>Thirdly, I ſhall illuſtrate the truth of the Aſſertion, and conſider the various Efficacies and Operations of the love of the Law of God, to the production of joy and peace.</hi>
+               </item>
+               <item>
+                  <hi>Fourthly, I ſhall ſhow you the full and perfect Agreement of this Peace thus flowing from the love of the Law of God, to the Character of my text, Great Peace,</hi> &amp;c.</item>
+               <item>
+                  <hi>And Laſtly, make Application of the whole.</hi>
+               </item>
+            </list>
+            <pb n="4" facs="tcp:94734:5"/>
+            <p n="1">I. <hi>I begin with the firſt of theſe, namely to conſider what is meant by the Law of God, and when a man may be ſaid to love it.</hi>
+            </p>
+            <p>Though the Law in Scripture, ſome<g ref="char:EOLhyphen"/>times ſignifies the particular oeconomy of the <hi>Jews;</hi> ſometimes but a part of the <hi>Moſaick</hi> inſtitution; Yet here in my Text it muſt be underſtood in the Largeſt ſenſe, of all the various Manifeſtations of the will of God, as well in the ſecret im<g ref="char:EOLhyphen"/>preſſions of our duty upon minds, as in thoſe more ſenſible revelations (ſo far as their reaſons were general, and their obli<g ref="char:EOLhyphen"/>gations Moral) to the Patriarchs, to <hi>Moſes,</hi> and the Prophets of old, and at laſt, by his Son our Saviour. And that becauſe there is no reſtriction in the Text, no confinement of it to any particular part of the Law, which then had been abſolutely neceſſary for the underſtanding and practice of the Propoſition. But chiefly becauſe the neceſſity of the matter it ſelf requires it, foraſmuch as an <hi>Habitual peace</hi> could never be ſaid to flow from the love of a part, where our Obligations are alike to the whole Law.</p>
+            <pb n="5" facs="tcp:94734:5"/>
+            <p>Now to <hi>love the Law</hi> of <hi>God,</hi> if we comprehend it in a Word, is ſo to <hi>diſ<g ref="char:EOLhyphen"/>cern</hi> the Worth, the Beauty and Perfecti<g ref="char:EOLhyphen"/>on of it, as to prefer it, to chuſe it, and govern our lives according to it.</p>
+            <p>For a <hi>quick and lively ſenſe</hi> of Excellencies in an object, or of <hi>Particular Kindneſs</hi> and beneficence to our ſelves, are the Neceſſary and <hi>Only Cauſes</hi> and Principles of Love, which ſhows it ſelf in <hi>Admiration, Pleaſure,</hi> and impatient deſire of the moſt intimate and compleat <hi>Enjoyment.</hi>
+            </p>
+            <p>Now the Excellencies of a Law are the Authority of its Author, the Wiſedom, Benefit, Equity, Compaſſion and Impar<g ref="char:EOLhyphen"/>tiality of the Law it ſelf. Whereſoever therefore we diſcern theſe Lovely qualities (glorious in themſelves, and the higheſt perfections of a Law,) our Judgment of <hi>Neceſſity</hi> will approve it, our <hi>Affections</hi> will be <hi>raviſhed,</hi> our Souls will deſire to be Conformed and United to it, to be caſt into the ſame mold, to be Tinctured with the ſame Perfections, <hi>to doe, and to be</hi> what the Law requires, as the moſt <hi>perfect,</hi> the moſt <hi>exquiſite,</hi> nay the <hi>only</hi> way of <hi>enjoy<g ref="char:EOLhyphen"/>ing</hi> the <hi>goodneſſe and Excellencies of it.</hi>
+            </p>
+            <pb n="6" facs="tcp:94734:6"/>
+            <p>Three things therefore are Eſſentially neceſſary to the Love of the Law of God.</p>
+            <list>
+               <item>Firſt, a diſtinct and accurate knowledge of the Law it ſelf in its Precepts and Truths, Encouragements and Threatnings.</item>
+               <item>Secondly,<note place="margin">Rom. 7.12, 16. Rom 13.14. Epheſ. 3.17. Philem. 3. Pſal. 119.40.54, 97.</note> a ſincere and full conſent to the Law that it is holy, juſt and good.</item>
+               <item>Thirdly, an ingenuous entire Devoting of our ſelves to be governed by it, as the <hi>end</hi> or termination of our knowledge and eſteem in the moſt ſolid and compleat <hi>Fruition.</hi>
+               </item>
+            </list>
+            <p n="2">II. <hi>And ſo I proceed in the Second place, to conſider what we are to underſtand by Peace, which the Pſalmiſt joyns with the Love of the Law of God, as the inſeparable adjunct or effect thereof.</hi>
+            </p>
+            <p>The word <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> is a comprehenſive term,<note place="margin">Gen. 29.6. 1 Sam. 25.5, 6.</note> and ſignifies all proſperity in the <hi>He<g ref="char:EOLhyphen"/>brew</hi> Stile. Peace be unto you was the Salutation of the <hi>Jews,</hi> And, let your Peace be upon the Houſe, was the General form of Benediction which our Saviour pre<g ref="char:EOLhyphen"/>ſcribed to his Diſciples.<note place="margin">Mat. 10.17.</note> Inſtances are ma<g ref="char:EOLhyphen"/>ny, but unneceſſary to be produced, be<g ref="char:EOLhyphen"/>cauſe the word is ever uſed in this com<g ref="char:EOLhyphen"/>prehenſive
+<pb n="7" facs="tcp:94734:6"/>Senſe, where the context doth not evidently determine it to ſome parti<g ref="char:EOLhyphen"/>culars; as in that of the <hi>Acts, c.</hi> 9. <hi>v.</hi> 31. <hi>The Churches</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> 
+               <hi>had Peace through<g ref="char:EOLhyphen"/>out all Judea,</hi> which muſt be interpreted of <hi>reſt and eaſe,</hi> becauſe it immediately fol<g ref="char:EOLhyphen"/>lows the account of their perſecution. So that of St. <hi>Paul</hi> to the <hi>Romans</hi> c. 14. v. 19. <hi>Let us therefore follow after the things which make for Peace,</hi> is interpreted of Love and Unity, becauſe it concludes a ſevere Re<g ref="char:EOLhyphen"/>proof of their uncharitable Feuds and Ani<g ref="char:EOLhyphen"/>moſities concerning meats and days. But whereſoever the word is uſed <hi>Indefinitely,</hi> as in my Text, there, without any excepti<g ref="char:EOLhyphen"/>on, it ſignifies all <hi>Felicity, Bleſſedneſs</hi> and <hi>Proſperity</hi> in General.</p>
+            <p>Whatſoever therefore is the <hi>Happineſs</hi> of <hi>a man</hi> under the Circumſtances of this pre<g ref="char:EOLhyphen"/>ſent life, that is the <hi>Peace</hi> in my Text, which is aſſured to thoſe who Love the Law.</p>
+            <p>And though the difference of our for<g ref="char:EOLhyphen"/>tunes, our Relation, our Capacities, and deſires are great, yet our <hi>Happineſs</hi> is the <hi>very ſame.</hi> For, after the ſtricteſt ſearch that can be made, after all the Forms and Schemes of Happineſs which have been
+<pb n="8" facs="tcp:94734:7"/>framed and conſidered; we are forced to acknowledge that it is not confined to any particular <hi>Figure</hi> or <hi>State of things,</hi> but muſt be, and is reſolved into inward con<g ref="char:EOLhyphen"/>tentation, ſerenity of mind, <hi>full ſatisfaction</hi> in our State and Place, upon a <hi>faithful de<g ref="char:EOLhyphen"/>liberate judgment</hi> of our <hi>whole affairs.</hi> For we are not capable of <hi>Abſolute</hi> perfection here; neither can we be happy in <hi>utter Ceſſation</hi> or <hi>Inactivity;</hi> and there remains but a Third which is right Judgment, prudent managery, and a wiſe Content.</p>
+            <p>Perfect Happineſs cannot be expected in this <hi>uncertain</hi> World. Such a condition wherein <hi>all</hi> our faculties and appetites ſhall be <hi>filled</hi> and <hi>ſatisfyed</hi> with proper objects; and <hi>all</hi> our <hi>Springs</hi> of motion always re<g ref="char:EOLhyphen"/>gular, without intention and remiſſion, is inconſiſtent with our Nature, and the pur<g ref="char:EOLhyphen"/>poſes of our being, who ſeem to be de<g ref="char:EOLhyphen"/>ſigned for Action, and Paſſion, for ſtrug<g ref="char:EOLhyphen"/>gling and difficulties, for mixtures of Good and Evil. <hi>To Fear nothing, to Deſire nothing, to Meet with nothing impoſſible is only compe<g ref="char:EOLhyphen"/>tent to God,</hi> ſays <hi>Epictetus.</hi> And as for a Stoical Apathy,<note place="margin">Ench.</note> or ſuch a deadneſs to the World that we ſhall ceaſe to at in it, or be Affected with the accidents of it; that
+<pb n="9" facs="tcp:94734:7"/>that is ſo far from a Bleſſing that it is unſuta<g ref="char:EOLhyphen"/>ble to us and Monſtrous; and therefore cannot be the Happineſs of a man, or the Peace of my Text. For man is an <hi>active</hi> creature furniſhed with organs of Reflexi<g ref="char:EOLhyphen"/>on, Previſion, Deſign and Enjoyment. But mere ceſſation is contrary to the <hi>quick<g ref="char:EOLhyphen"/>neſs</hi> and activity of the mind, a ſpiritleſs, dull and heavy ſtate; and therefore im<g ref="char:EOLhyphen"/>poſſible to give us Peace or make us Happy.</p>
+            <p>It remains then, upon the whole matter, that the Peace of my Text muſt be ſuch as ſhall conſiſt with the deſign and order of <hi>Society,</hi> with our <hi>Station,</hi> our <hi>Buſineſs,</hi> our <hi>Capacities,</hi> and <hi>Relations in the World.</hi> And being thus involved in the midſt of many Uncertainties, croſs events, and continual vexations, the Pſalmiſt encourages us to govern our lives by the Law of God, from the moſt pregnant motive that can be of<g ref="char:EOLhyphen"/>fered to the minds of men, <hi>viz.</hi> that then we ſhall have Peace, <hi>Acquieſcence</hi> in our State, <hi>Satisfaction</hi> in our minds, chearful reflexion upon our lives, pleaſant converſe with our own thoughts, liberty from im<g ref="char:EOLhyphen"/>patient deſire, from control and ſtrug<g ref="char:EOLhyphen"/>lings, full approbation of our proceedings, and content in all Events.</p>
+            <pb n="10" facs="tcp:94734:8"/>
+            <p>And as this is the <hi>proper happineſs</hi> of a man, in this <hi>Probationary</hi> life, ſo it is the certain and the utmoſt ſignification of the word <hi>Peace;</hi> Nay, the onely kind of peace that naturally flows from the obſervation of a <hi>Law of life,</hi> which ſuppoſes every man contriving his buſineſs and purſuing his ends, and Aſſiſts him with arts of manage<g ref="char:EOLhyphen"/>ment, in the midſt of thoſe many paſſions, and various accidents we are ſubject to.</p>
+            <p>As for that <hi>Spiritual joy</hi> which fills the hearts of pious men, tough this is alſo the certain Effect of Loving the Law of God, as we ſhall diſcourſe in its order: Yet that follows not ſo much from the Nature of the thing, as from the promi<g ref="char:EOLhyphen"/>ſes of God, by whoſe ſpecial Grace it is derived unto us.</p>
+            <p>Having thus diſcovered the nature and quality of that Peace which is proper and agreeable to our preſent State, I ſhall now proceed to conſider the methods of obtain<g ref="char:EOLhyphen"/>ing it, the ſprings and Principles from whence it flows.</p>
+            <p>And this is the Nobleſt Argument, that can poſſibly be diſcuſſed, becauſe it is Peace that diſtinguiſhes Life from Mad<g ref="char:EOLhyphen"/>neſs,
+<pb n="11" facs="tcp:94734:8"/>it is this alone can make our being Pleaſant or Deſirable; it is this that ren<g ref="char:EOLhyphen"/>ders our powers of <hi>Previſion</hi> and <hi>Reflexi<g ref="char:EOLhyphen"/>on</hi> beneficial, which without it are the cer<g ref="char:EOLhyphen"/>tain inſtruments of intolerable pain and anguiſh.</p>
+            <p>And in this inquiry it is but reaſona<g ref="char:EOLhyphen"/>ble to exſpect ſucceſs. For it is impoſſible to conceive that Diſcords and Contradicti<g ref="char:EOLhyphen"/>ons ſhould by God himſelf have been mingled with our <hi>Conſtitutions;</hi> that ſome of our powers and faculties ſhould be <hi>deſigned</hi> by Him to <hi>vex</hi> and <hi>diſcompoſe</hi> the frame by Jarring, and ſtriking againſt the reſt. It cannot be believed that Impe<g ref="char:EOLhyphen"/>tuoſity of deſire, and Turbulency of paſſi<g ref="char:EOLhyphen"/>on, which almoſt <hi>all men,</hi> of whatever condition <hi>are oppreſſed with,</hi> ſhould be the <hi>neceſſary</hi> reſult of our compoſition.</p>
+            <p>There muſt be therefore methods of peaceable life, and ſelf-enjoyment, ſutable to the Powers and Diſpoſitions of our na<g ref="char:EOLhyphen"/>ture, if we could find them out; There muſt be rules of Steerage, arts of Defence, and meaſures of prudent Conduct, in the midſt of thoſe <hi>varieties</hi> of <hi>Action</hi> and <hi>Paſſi<g ref="char:EOLhyphen"/>on</hi> which divide our Lives.</p>
+            <pb n="12" facs="tcp:94734:9"/>
+            <p>And theſe the Pſalmiſt tells us, are con<g ref="char:EOLhyphen"/>tained and only to be found in the Law of God, who out of his Infinite good<g ref="char:EOLhyphen"/>neſs and compaſſion of our weakneſs, hath preſcribed us rules of life, which in the Love and Practice are a certain <hi>Cauſe,</hi> an inexhauſtible <hi>Fountain</hi> of Joy and Peace. Which leads me to the Third head of diſcourſe propoſed, namely;</p>
+            <p n="3">III. <hi>To Illuſtrate the truth of the Aſſer<g ref="char:EOLhyphen"/>tion that this Bleſſed Peace and content of mind will certainly follow upon the Love and practice of the Law of God. Great Peace have they that Love thy Law.</hi>
+            </p>
+            <list>
+               <item>Firſt, now this inward Serenity or Peace of mind may either ariſe from the <hi>Smooth<g ref="char:EOLhyphen"/>neſs,</hi> the <hi>Steddyneſs,</hi> the <hi>Agreement of our Actions;</hi> or,</item>
+               <item>Secondly, <hi>from a prudent government of our ſelves, and our affairs under all circum<g ref="char:EOLhyphen"/>ſtances, and in all conditions;</hi> or,</item>
+               <item>Thirdly, <hi>from Internal, Spiritual commu<g ref="char:EOLhyphen"/>nications of courage, joy and comfort to the Soul. But the Love of the Law of God will both diſpoſe us for, and effectually operate to the production of Peace after all theſe ſeveral
+<pb n="13" facs="tcp:94734:9"/>ways, and according to all our Capacities of receiving it.</hi> And,</item>
+            </list>
+            <p>Firſt, <hi>Content or peace of mind ariſes from the Smoothneſs, the Steddyneſs and Agree<g ref="char:EOLhyphen"/>ment of our Actions.</hi> But the Law of God is compiled with ſo much Wiſedom, and with ſuch reſpect to Inclinations of the humane nature, that it guides its ſubjects, through all the parts and Scenes of life in a <hi>conſonant, equal, ſutable</hi> procedure,</p>
+            <p>To govern our lives by a <hi>Rule</hi> with re<g ref="char:EOLhyphen"/>guard to one <hi>laſt End,</hi> which ſhall run through all our actions, cauſes Peace and Acquieſcence how unwarily ſoever we have choſen, or however we may have <hi>forced</hi> and contradicted our Wills, and live in a kind of <hi>Violence</hi> to our <hi>Inclina<g ref="char:EOLhyphen"/>tions;</hi> becauſe we have <hi>Approved</hi> and are <hi>Reſolved;</hi> we are delivered from multi<g ref="char:EOLhyphen"/>plicity of ends and objects, from the re<g ref="char:EOLhyphen"/>pugnancies of contrary deſires, from the contradiction of divers intereſts, from the torment of heſitation, ſhame and con<g ref="char:EOLhyphen"/>fuſion.</p>
+            <p>But the Peace which flows from the Love of the Law of God, is not only the ſatisfaction of Order and Uniformity in our motions, or the terminations of all
+<pb n="14" facs="tcp:94734:10"/>our actions in the one great end of Glorifying God, and ſaving our Souls; But the Duties themſelves, which the Law requires are the <hi>proper actions</hi> of reaſonable creatures, the very beſt <hi>motions</hi> of our own minds, the moſt exquiſite <hi>Pleaſures</hi> and <hi>Entertainments</hi> of our being.</p>
+            <p>If therefore the conſtant obſervation of a Rule, be a certain Principle of Peace and Satisfaction, how much more the Obſer<g ref="char:EOLhyphen"/>vation of <hi>ſuch a Rule,</hi> the commands where<g ref="char:EOLhyphen"/>of are the very <hi>vital Powers</hi> and <hi>Perfection</hi> of our <hi>Natures.</hi> For the Soul enjoys and exerciſes its <hi>life,</hi> chiefly, by the <hi>mediation</hi> of the <hi>body,</hi> in the way of <hi>action.</hi> Such therefore as our <hi>actions</hi> are, ſuch is the Health or Sickneſs, the Strength or Weakneſs, the Beauty or Degeneracy of the mind.<note place="margin">Pſam. 19 7. 119.142. Jer. 31.33.</note> 
+               <hi>But the Law of the Lord is Perfect; It is written in our hearts;</hi> it is within our ſelves; directing us to ſuch a government of our Affections, Wills and Actions as <hi>we</hi> our <hi>ſelves cannot but approve.</hi> For it is not a matter of diſpute, but we <hi>Know infallibly,</hi> by an <hi>exquiſite ſenſe,</hi> of the Tendencies and Inclinations of our inward life, that to be wife and juſt, to be pure and holy, to imitate the life of God, are the
+<pb n="15" facs="tcp:94734:10"/>unqueſtionable Excellencies of our being; the habits, or <hi>Perfection</hi> of thoſe <hi>Diſpoſiti<g ref="char:EOLhyphen"/>ons.</hi> which we feel in our ſelves. And the more we Practiſe it, the more we ſhall diſcern the kind agreeable nature of it: becauſe the Prejudices of contrary opini<g ref="char:EOLhyphen"/>ons and deſires will wear away; the Soul will be more and more Awakned into a <hi>ſenſe</hi> of its own life, and by degrees re<g ref="char:EOLhyphen"/>cover a beautiful habit, a ſound, vivaci<g ref="char:EOLhyphen"/>ous conſtitution.</p>
+            <p>Perfect content and Peace, is therefore the neceſſary effect of Loving the Law of God, becauſe the right Opinions, the true Reliſhes, the proper Exerciſes of the <hi>Soul</hi> are <hi>the ſame</hi> which the <hi>Law</hi> it ſelf com<g ref="char:EOLhyphen"/>mands. There is a Sympathy, an affinity between the Mind and Vertue. Whoſoever therefore are under the power of Godlike diſ<g ref="char:EOLhyphen"/>poſitions are, <hi>eo nomine,</hi> in a full Poſſeſſion of Pleaſure, Eaſe and Peace. That is the Firſt.</p>
+            <p>Secondly, <hi>Content or Peace of mind, pro<g ref="char:EOLhyphen"/>ceeds from a prudent Government of our ſelves and our affairs under all circumſtances;</hi> from a Judicious proſecution of <hi>Good,</hi> from a dexterous eſchewing of <hi>Evil,</hi> and from a ready application of reaſons or means of peace to our ſelves in all Events.</p>
+            <pb n="16" facs="tcp:94734:11"/>
+            <p>But the Law of God is contrived with ſuch reſpect to the Happineſs of men, that thoſe who are under its Power and Conduct, are throughly inſtructed in all the arts of a <hi>wiſe procedure.</hi> And,
+<list>
+                  <item>Firſt, <hi>in the moſt Effectual methods of Ac<g ref="char:EOLhyphen"/>quiring good, and Diverting evil.</hi> And,</item>
+                  <item>Secondly, <hi>in ſuch Diſpoſitions of mind, and principles of Reaſon, that none of the paſſions or accidents of life, ſhall Deject our mind, or Deſtroy our peace.</hi>
+                  </item>
+               </list>
+            </p>
+            <p>Firſt, <hi>It inſtructs us in the moſt Effectual methods of acquiring good, and diverting evil.</hi>
+            </p>
+            <p>The <hi>deſtruction</hi> of moſt men is from <hi>themſelves.</hi> Either our ends are out of our <hi>reach,</hi> or ſome way or other unſuta<g ref="char:EOLhyphen"/>ble to us. Or if we have Choſen well, yet how many thouſands miſcarry in the Proſecution. Either we are Vain and Pre<g ref="char:EOLhyphen"/>ſuming, or Timerous and Dejected; De<g ref="char:EOLhyphen"/>bauched and Negligent, or Raſh and Vi<g ref="char:EOLhyphen"/>olent; Giddy and Inconſtant, or Conceited and Ungovernable. Our own <hi>Temper,</hi> our own pretended <hi>Wiſedom</hi> are the Principal inſtruments of our vexation and diſap<g ref="char:EOLhyphen"/>pointment.</p>
+            <pb n="17" facs="tcp:94734:11"/>
+            <p>But the Law of God is a <hi>lively and exact Image,</hi> of an <hi>
+                  <g ref="char:V">Ʋ</g>nderſtanding</hi> infinitely <hi>Perfect.</hi> Thoſe therefore whoſe minds, whoſe wills and actions are <hi>informed</hi> and governed by it, partake in a proper ſenſe of the Wiſedom of <hi>God himſelf;</hi> and are moved in ſome ſort by the vigour and activity of a <hi>Perfect</hi> Mind. Hence <hi>Solomon</hi> repreſents Religion, ſpeaking of it ſelt, <hi>Wiſe counſel is mine, and ſound wiſedom, I have underſtanding, I have ſtrength.</hi> Pro. 11.3. For Vertue diſciplines and ſubjects the body, ſtills the paſſions, files off the chains, and removes the weights which depreſs and ſink the ſoul into a ſluggiſh unactive State, and reſtores it to a <hi>Free</hi> and <hi>ingenu<g ref="char:EOLhyphen"/>ous</hi> exerciſe of its own life and being.</p>
+            <p>And thus redeemed from the <hi>dominion</hi> of paſſion, from the <hi>power</hi> and impulſe of the <hi>lower Spirit;</hi> our Apprehenſions of things will be <hi>diſtinct</hi> and clear, our In<g ref="char:EOLhyphen"/>ward Senſe will be true and <hi>quick,</hi> our Judgment <hi>maſterly</hi> and comprehenſive, <hi>di<g ref="char:EOLhyphen"/>recting</hi> our faculties and inſtruments of action with an aſſured Light. In a word, whoſoever is under the Power of the Law of God will improve in his knowledge, he will be prudent in the choiſe of his ends,
+<pb n="18" facs="tcp:94734:12"/>Sparing of his Affections, Maſter of his Paſſions, adviſed in his proceedings. Reſo<g ref="char:EOLhyphen"/>lute in difficulties, Seaſonable in his appli<g ref="char:EOLhyphen"/>cations, Vigorous in his Executions, and always preſent to Himſelf. <hi>And thus his de<g ref="char:EOLhyphen"/>crees ſhall be eſtabliſhed, and the light ſhall ſhine upon his ways.</hi> Job. 22.28. It would be tedious to ſtate particular caſes, and ſhow how this Principle of Love to the Law of God would <hi>act</hi> and ſhow it ſelf in laying the <hi>Deſign,</hi> diſpoſing the inſtruments, fore<g ref="char:EOLhyphen"/>ſeeing the difficulties, and finally, compaſ<g ref="char:EOLhyphen"/>ſing the End; it is enough that the Law is the <hi>Wiſedom of God, the moſt exact and Perfect diſpoſition of the Soul.</hi> The ſame therefore that <hi>Health</hi> is to the body, which enables it to Judge of ſounds and taſts, and other objects of ſenſe; ſuch is <hi>vertue</hi> to the mind, which enables it to <hi>Judge exactly</hi> of propoſitions <hi>Mo<g ref="char:EOLhyphen"/>ral,</hi> of wiſe and good, of fit and proper, of things Convenient and Decent. And this is an <hi>Infinite, inexhauſtible</hi> Principle, which, (ac<g ref="char:EOLhyphen"/>cording to the Laws of production,) will <hi>In<g ref="char:EOLhyphen"/>form</hi> the various, &amp; innumerable <hi>Iſſues</hi> of the mind with the <hi>tincture</hi> or <hi>wiſedom</hi> of the root.</p>
+            <p>And as the Law of God enables thoſe who love it to judge of things <hi>diſtinctly,</hi> and diſpoſes them to an excellent government
+<pb n="19" facs="tcp:94734:12"/>of themſelves, which are the Greateſt Ad<g ref="char:EOLhyphen"/>vantages in the purſuit of Good, and the Beſt Securities againſt the Power of evil; <hi>So alſo, it accompliſhes the mind with ſuch Principles, ſuch diſpoſitions, and ſuch a right Opi<g ref="char:EOLhyphen"/>niou of things, that none of the paſſions or evils of humane life, ſhall be able to deſtroy our peace.</hi>
+            </p>
+            <p>
+               <q>A Pilot,<note place="margin">de Tranq.</note> (as <hi>Plutarch</hi> ſpeaks upon the like occaſion) <hi>can neither Command the Heavens, rule the Seas, ſtill the Wind, nor gain the Port at pleaſure; But he can preſerve his Veſſel by his art, he can ſtrike his Sails, weather and ride out the Storm.</hi>
+               </q> So the Love of the Law of God, though it gives us great <hi>Advantages,</hi> above other men, of diverting evil and acquiring good; Yet the Efficacies of it are not <hi>Poſitive</hi> and <hi>Neceſſary,</hi> but <hi>Moral</hi> and <hi>Conditional.</hi> We ſtill remain in the midſt of innu<g ref="char:cmbAbbrStroke">̄</g>merable <hi>contingencies;</hi> We are ſtill the Subjects of <hi>paſſion,</hi> and of all the <hi>various</hi> operations of <hi>ſecond</hi> cauſes.</p>
+            <p>Religion is no Charm or Amulet, it chan<g ref="char:EOLhyphen"/>ges not the <hi>nature of things,</hi> nor <hi>forceth</hi> blind unconſcious cauſes to conſpire the Ac<g ref="char:EOLhyphen"/>compliſhment of all our ends. But it ſup<g ref="char:EOLhyphen"/>plies the Soul with ſuch Preparatives, Prin<g ref="char:EOLhyphen"/>ciples and Opinions, that no event ſhall make too <hi>deep an impreſſion,</hi> nothing ſhall <hi>Deject</hi> our mind or <hi>deſtroy our Peace.</hi>
+            </p>
+            <pb n="20" facs="tcp:94734:13"/>
+            <p>The weather may be black over our heads, the winds may Ruffel our <hi>Sails,</hi> the ſtorms may Riſe about us; but the Strength and trimming of the Veſſel, the skil of the Pilot, and the ready Obedience of the Sailers, our paſſions, will then be ſuch that the proudeſt waves may Break before us, but ſhall never <hi>Over-run</hi> or <hi>ſink us,</hi>
+            </p>
+            <lg>
+               <l>—Fortunaque perdat</l>
+               <l>Oppoſita virtute,<note place="margin">Luc.</note> minas.—</l>
+            </lg>
+            <p>Now the Principal ſprings of diſorder and trouble are theſe three.</p>
+            <list>
+               <item>Firſt, <hi>Deſire and Hope <g ref="char:V">Ʋ</g>nſatisfyed.</hi>
+               </item>
+               <item>Secondly, <hi>Fears and Apprehenſions of fu<g ref="char:EOLhyphen"/>ture Events.</hi>
+               </item>
+               <item>Thirdly, <hi>Sudden Accidents, or the Surprize of misfortunes.</hi>
+               </item>
+            </list>
+            <p>Firſt, <hi>Deſire and Hope <g ref="char:V">Ʋ</g>nſatisfyed.</hi>
+            </p>
+            <p>As it is the common Infirmity of man<g ref="char:EOLhyphen"/>kind to be ever <hi>Deſiring</hi> and never <hi>Conten<g ref="char:EOLhyphen"/>ted;</hi> to <hi>Forget</hi> what is paſt, to be weary of what we <hi>Poſſeſs,</hi> and to fix our eyes and our hearts upon things <hi>before us</hi> and <hi>without us;</hi> ſo it is the moſt fruitful principle of pain and miſery. Earneſt, violent Deſire, though
+<pb n="21" facs="tcp:94734:13"/>hereafter it <hi>ſhould</hi> be <hi>ſatisfyed,</hi> yet <hi>ſimply,</hi> in it ſelf, it is <hi>grievous</hi> and <hi>afflicting;</hi> Becauſe it is commonly attended with Claſhing of paſſions, with commotions of Hope and Fear, with ſtruggling and difficulties, with ſucceſſions of croſſe events, with immode<g ref="char:EOLhyphen"/>rate anger, with envy, ambition, and the Perfidiouſneſs of inſtruments. It frequently puts us upon <hi>things</hi> moſt <hi>Irksom</hi> and <hi>diſagree<g ref="char:EOLhyphen"/>able</hi> to the Spirit of a man. How often are men forced to give thanks for <hi>Injuries,</hi> to court an <hi>Enemy,</hi> to ſmile of <hi>Affronts,</hi> to In<g ref="char:EOLhyphen"/>treat for a <hi>debt,</hi> nay, to offer Satisfaction, where they themſelves received the Wrong. This, and a great deal more they are forced to ſuffer and ſubmit to according as the <hi>Na<g ref="char:EOLhyphen"/>ture</hi> of their Ends, the <hi>Quality</hi> of their. <hi>In<g ref="char:EOLhyphen"/>ſtruments,</hi> and the vehemence of their De<g ref="char:EOLhyphen"/>ſires may be.</p>
+            <p>It is hard to conceive a more miſerable man than one whoſe Heart is <hi>paſſionately fixed</hi> upon a deſign, which is, chiefly to be brought to paſs, as all things are, by the <hi>Aſſiſtance</hi> of others, and the concurrence of <hi>uncertain</hi> cauſes; unleſs it be Him, who after all he hath Done and Suffered can <hi>never</hi> At<g ref="char:EOLhyphen"/>tain his End. Simple <hi>Deſire,</hi> if it be paſſio<g ref="char:EOLhyphen"/>nate is <hi>painful</hi> and <hi>uneaſie,</hi> but Deſire
+<pb n="22" facs="tcp:94734:14"/>Unſatisfy'd is the <hi>perfection</hi> of <hi>Moral Tor<g ref="char:EOLhyphen"/>ment.</hi>
+            </p>
+            <p>Sometimes men vex themſelves with Shame, for ſo much of the ill ſucceſs as was <hi>owing</hi> to themſelves; Anon they reſolve upon a new Attempt, when of a ſudden, they ſink under the Preſſures of Deſpair. Sometimes they are diſtracted with Tu<g ref="char:EOLhyphen"/>mults of inconſiſtent thoughts, with Anxi<g ref="char:EOLhyphen"/>ous Meditations of malice and revenge. In a word, <hi>it is a conſtant pungent Gnawing in the mind, a kind of furious unintermitting Mad<g ref="char:EOLhyphen"/>neſs.</hi>
+            </p>
+            <p>
+               <hi>But the Love of the Law of God will prevent, or cure, the evils of deſire, the impatience of hope, and the vexation of diſappointment.</hi>
+            </p>
+            <p n="1">1. For it gives us a, <hi>right</hi> Underſtanding of the <hi>Weight</hi> and <hi>value</hi> of all things. It is <hi>Eſteem</hi> that creates <hi>deſire.</hi> An <hi>accurate Judg<g ref="char:EOLhyphen"/>ment</hi> therefore would remove by far the greater part of the Miſeries of Humane life.<note place="margin">Epict. Ench.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. For it is not the <hi>Accident,</hi> but our <hi>Opinion</hi> that gives us trouble.</p>
+            <p n="2">2. Again, It Emancipates and enlarges the Soul, and redeems us from Slavery to inferi<g ref="char:EOLhyphen"/>or things. It is the <hi>narrowneſs</hi> of out <hi>Knowledge</hi> and the <hi>ſcantineſs</hi> of our <hi>ends</hi> that <hi>Chains</hi> us
+<pb n="23" facs="tcp:94734:14"/>ſo firmly to any Object. But Religion <hi>fills</hi> our affections with the Love of God, who is ſimply and <hi>Originally Good;</hi> and ac<g ref="char:EOLhyphen"/>quaints us with the Excellency of our own nature, the Liberty of our will, our <hi>right</hi> of dominion over moſt of the creatures; And affects us with the Diſhonour of admit<g ref="char:EOLhyphen"/>ting our <hi>Slave</hi> into our bed and boſom. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. The are properly our Goods, our Inſtruments,<note place="margin">Hier. au. Car<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>.</note> it is abſur'd to make them our <hi>very ſelves,</hi> ſays <hi>Hierocles.</hi>
+            </p>
+            <p n="3">3. Again, It teaches us to propoſe ſuch <hi>ends</hi> as are <hi>Modeſt</hi> in themſelves, <hi>eaſily</hi> ma<g ref="char:EOLhyphen"/>naged, and <hi>likely</hi> to be Accompliſhed; and inſtructs us to purſue them with ſuch a <hi>Juſt indifference</hi> as is ſuitable to the <hi>
+                  <g ref="char:V">Ʋ</g>uncertainty</hi> of events. <hi>He that would be happy</hi> ſays Plutarch <hi>muſt not ſet up greater ſails than the Veſſel will bear, nor build his hopes but upon a</hi> ſure <hi>Foun<g ref="char:EOLhyphen"/>dation.</hi> For (he goes on) <hi>neither they that would ſhoot an arrow out of a Plough, Or hunt the hare with an Ox,</hi>
+               <note place="margin">Plut. de Tranq. <hi>an.</hi>
+               </note> 
+               <hi>Or catch the Hart in a caſtingnet, are croſſed, in the failure of their purpoſes, by wicked Angels, or malignant Spi<g ref="char:EOLhyphen"/>rits; but their ill ſucceſs is owing to their in<g ref="char:EOLhyphen"/>conſiderate raſhneſs in attempting things im<g ref="char:EOLhyphen"/>poſſible.</hi>
+            </p>
+            <pb n="24" facs="tcp:94734:15"/>
+            <p n="4">4. Again, Religion ſubdues our <hi>Pride,</hi> and gives us a low conceit of our own De<g ref="char:EOLhyphen"/>ſerts. A ſtorm is leſs dangerous when the Sails are down. Pride is the very form and eſſence of Impatience, Envy and Diſcon<g ref="char:EOLhyphen"/>tent; We reſolve what we <hi>deſerve,</hi> and are angry that all the world is not <hi>of our Opinion.</hi>
+            </p>
+            <p n="5">5. And laſtly, It turns our eyes <hi>Within,</hi> and affects us with a thankful ſenſe of the Bleſſings we do enjoy. It is <hi>Plutarch's</hi> ob<g ref="char:EOLhyphen"/>ſervation <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">Plut. de Tran.</note> 
+               <hi>Whatſoever good befalls us is unregarded</hi> as a <hi>drop</hi> that falls into the <hi>Ocean;</hi> but what<g ref="char:EOLhyphen"/>ever happens ill affects us as the <hi>overflowing</hi> of the <hi>Sea.</hi> But a wiſe man will make the beſt of what he does enjoy, and always ſet the faireſt ſide of his fortune before his thoughts, that is the firſt.</p>
+            <p>Secondly, <hi>Vexation and trouble proceed from ſad and diſmal Apprehenſions of future Evils.</hi>
+            </p>
+            <p>And this is eaſily diſtinguiſhed from the other, for Deſire and hope, ſuppoſe us in a ſtate of <hi>want</hi> and defect, but this in a ſtate of <hi>Poſſeſſion</hi> and <hi>Enjoyment.</hi>
+            </p>
+            <p>Fear, if we derive it from its Original cauſe, is the off-ſpring and effect of <hi>Love.</hi>
+               <pb n="25" facs="tcp:94734:15"/>The poſſeſſion of what we Value, the high Opinion of our Acquiſitions, and the Pleaſures of Enjoyment, give us <hi>content</hi> and <hi>Satisfaction</hi> in our <hi>ſelves,</hi> and <hi>
+                  <g ref="char:V">Ʋ</g>nite</hi> and, <hi>Terminate</hi> our Af<g ref="char:EOLhyphen"/>fections in theſe objects.</p>
+            <p>Hence, the reflexion upon the <hi>
+                  <g ref="char:V">Ʋ</g>ncertainty</hi> of our fortune, the knowledge, it may be, of ſome <hi>Particular cauſes,</hi> which may deſtroy our happineſs, Or the ſad <hi>Ideas,</hi> the melancholy tumultuous <hi>fancies</hi> of a <hi>Jealous mind,</hi> and a ſtrong affection vex us with continual Fears of loſing what we ſo paſſionately <hi>Love.</hi> And in proportion to the Violence of our affection, the Strength of our Jealouſies, the Quickneſs and Activity of our Paſſions; Such are the In<g ref="char:EOLhyphen"/>fluences of theſe apprehenſions upon the peace and pleaſure of our lives.</p>
+            <p>
+               <hi>But the Love of the Law of God will intercept the entries and avenues of Fear; becauſe it directs and governs our affections.</hi>
+            </p>
+            <p>It gives us a more Copious view of Objects, and ſo prevents an Ignorant Admiration. It furniſhes us with <hi>Diſtinct</hi> and Perfect notions of Worth and Beauty, and ſo corrects the <hi>fu<g ref="char:EOLhyphen"/>tility,</hi> and <hi>wantonneſs</hi> of Love.</p>
+            <p>It affects us with a Conſtant ſenſe of the <hi>un<g ref="char:EOLhyphen"/>ſtable</hi> nature of the World, and ſo preſerves our Paſſions within our <hi>Power.</hi> For no man of common ſenſe will engage his affections to
+<pb n="26" facs="tcp:94734:16"/>any Object which he knows he can neither <hi>Command</hi> nor <hi>Keep.</hi>
+            </p>
+            <p>It inſtructs us to be content that the World ſhould fluctuate in perpetual <hi>uncertainty.</hi>
+            </p>
+            <p>It teaches us to Reſign our ſelves to the di<g ref="char:EOLhyphen"/>ſpoſal of <hi>infinite Wiſedom</hi> and <hi>Goodneſs.</hi>
+            </p>
+            <p>It aſſures us that we are always in the <hi>beſt</hi> and moſt <hi>happy</hi> ſtate; and no man is afraid of his <hi>beſt</hi> Fortune.</p>
+            <p>It raiſes the Spirit,<note place="margin">Heb. 11.32. 2 Cor. 4.16. Heb. 6.19.</note> and gives us <hi>Courage</hi> in the Confidence of <hi>Omnipotent power</hi> to Defend and Aſſiſt us. The <hi>Guilt</hi> of the wicked in<g ref="char:EOLhyphen"/>hanſes their <hi>Fear;</hi> they know their Demerits, and are therefore in continual Dread of Armed Almighty Juſtice.<note place="margin">Job. 11.15.</note> 
+               <hi>But if wickedneſs dwell not in thy Tabernacle, thou ſhalt be ſtedfaſt and not fear. For the eye of the Lord is upon them that fear Him,</hi>
+               <note place="margin">Pſal. 32.18.</note> 
+               <hi>and hope in his mercy. Be of Good Cou<g ref="char:EOLhyphen"/>rage therefore, and He ſhall ſtrengthen your hearts, all ye that truſt in the Lord.</hi>
+               <note place="margin">Pſal. 31.24.</note>
+            </p>
+            <p>But above all it ſubmits and even unites our Will to the Will of God, and ſo Removes the <hi>Cauſes,</hi> nay the very <hi>Poſſibilities</hi> of Fear, by diſpoſing our minds to <hi>chuſe,</hi> and <hi>deſire</hi> what pleaſes <hi>God,</hi> that is, <hi>whatſoever</hi> Happens. <hi>Non eſt aliud eſſugium neceſſitatis quam velle quod ip<g ref="char:EOLhyphen"/>ſa cogat.</hi> That is the ſecond.</p>
+            <p>Thirdly, <hi>Vexation and trouble proceed from Sudden Accidents,</hi> from the <hi>ſurprize of Miſ<g ref="char:EOLhyphen"/>fortunes.</hi>
+            </p>
+            <pb n="27" facs="tcp:94734:16"/>
+            <list>
+               <item>1. <hi>And theſe are either leſs conſiderable, the Occurrences of every day.</hi>
+               </item>
+               <item>2. <hi>Or of greater Moment ſuch as Affect or threaten our greateſt intereſts, as our Liberty, Health, Eſtate or Life.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>And Firſt of thoſe which are leſt conſiderable.</hi>
+            </p>
+            <p>The ſeveral Relations of Subjects, Children, Servants, Friends, Correſpondents and the like, are ſo many certain cauſes of Paſſion and trouble; Becauſe the <hi>neglects</hi> and <hi>miſcarriages</hi> of perſons in the Diſcharge of their reſpective duties, are a <hi>Continual</hi> Provocation.</p>
+            <p>But how unhappy do we generally make our ſelves by an <hi>immoderate</hi> Reſentment of theſe trivial and common Accidents? By the exorbitancy of our paſſion, and by over ve<g ref="char:EOLhyphen"/>hement tranſports we <hi>puniſh</hi> our ſelves for the faults of others; and by the Indecency of our actions, and the intemperance of our Speech, by the ſhame and ſervility which uſually follow ſuch Furious Motions, we <hi>Expoſe our ſelves</hi> to the <hi>Contempt</hi> of thoſe we would <hi>Correct.</hi>
+            </p>
+            <p>But the Law of God in the Love and practice of it, is a principle of Sobriety and Diſcretion, of Humility and Condeſcenſion, of Pity and Forgiveneſs. It teaches us Kindneſs and Hu<g ref="char:EOLhyphen"/>manity, which are apt to Subdue the moſt rugged tempers, and oblige the Hearts and
+<pb n="28" facs="tcp:94734:17"/>Affections of men to the ſervice of one another, and ſo <hi>removes the occaſions</hi> of paſſion and diſ<g ref="char:EOLhyphen"/>pleaſure. And it inſtructs us to conſider our <hi>own</hi> infirmities, to be moderate in our expecta<g ref="char:EOLhyphen"/>tions, to be Candid in our conſtructions, to be meek and lowly in mind, and finally if we are angry yet ſo as not to ſin.<note place="margin">de Tran. <hi>An</hi>
+               </note> 
+               <hi>Now as dogs, ſays</hi> Plutarch, <hi>That are apt to ſnarle and bark at every noiſe, will be taken off by the voice of thoſe they are uſed too; ſo we might eaſily ſtill and allay our paſſions, if we Accuſtomed our Minds to theſe Meditations, and had them always ready to throw in as occaſion offered.</hi>
+            </p>
+            <p>As for thoſe ſadder accidents which affect or threaten us in our <hi>higheſt intereſts,</hi> as our Liberty, Health, Eſtate or Life: I confeſs they are the <hi>fierceſt</hi> Tryalls of our Reaſon and Reli<g ref="char:EOLhyphen"/>gion. Experience daily ſhows their <hi>weight</hi> and <hi>power.</hi> How ſuddenly do they <hi>depreſs</hi> the Spirit, and cruſh men into Diſtraction, Deſpair and Death.</p>
+            <p>But a Principle of Religion grown up into the ſtrengths of Love will enable us, to preſerve the ſerenity of our mind under any the moſt <hi>preſſing</hi> Calamities of humane life. For beſides a firm dependance upon God, and an humble reſignation to his will; It teaches us to exſpect the <hi>Worſt</hi> before it comes, and to make the moſt <hi>terrible accidents</hi> Familiar to our
+<pb n="29" facs="tcp:94734:17"/>thoughts. Conſtant delight <hi>Emaſculates</hi> the mind, but Hardſhip and ill weather, prepare us for difficulties and croſs events.</p>
+            <p>The greateſt part of any evil is the <hi>Surprize</hi> of it: We promiſe our ſelves <hi>a long</hi> Proſperity; <hi>we put the evil day far from us, and ſay to our Soul, take thine eaſe;</hi> Whenſoever therefore the <hi>dark</hi> ſide of the Tables is turned towards us, it is <hi>Strange</hi> and <hi>Terrible</hi> as Troubled Fancy will night; as Horrid as a Troubled Fancy will repreſent it to it ſelf.</p>
+            <p>But Religion inures us to <hi>ſelf-denyal,</hi> and <hi>Exerciſes</hi> our thoughts with poverty and exile, with reproach and death.</p>
+            <p>It teaches us to ſeperate the <hi>Adventitious</hi> parts of the Calamity; To <hi>pull</hi> off theſe terrible <hi>Weeds</hi> which <hi>falſe Opinion</hi> hath dreſſed it up in. It ſo inſtructs us in the whole Doctrine of Di<g ref="char:EOLhyphen"/>vine Providence that we ſhall not be at all <hi>ſur<g ref="char:EOLhyphen"/>prized,</hi> when that which is always in <hi>Poſſe</hi> ap<g ref="char:EOLhyphen"/>pears in <hi>Act.</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">Cuivis poteſt accidere quod cui<g ref="char:EOLhyphen"/>quam poteſt <hi>Sen.</hi> (a <hi>Zen.</hi>) de vit. beat.</note> He that would never be Miſerable muſt always prepare himſelf for the worſt, and remember that there is nothing either New or Strange; that almoſt all events are the <hi>proper effects</hi> of <hi>common</hi> cauſes, agreeable to the Nature of things, the oeconomy of the world, and the Liberty of agents, and all diſpoſed according to the good will and pleaſure of a Supreme agent.</p>
+            <pb n="30" facs="tcp:94734:18"/>
+            <p>And thus I have drawn together the moſt conſiderable Moral Aſſiſtances, which the Love of the Law of God will Furniſh us withall, for the <hi>Acquiring good, Diverting evil,</hi> and the <hi>Pa<g ref="char:EOLhyphen"/>cification</hi> of our minds in all Events.</p>
+            <p>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Hier.</hi> in Aur. Car. <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> 
+                  <hi>Plut.</hi> de Tranq. an.</note>But the wicked are expoſed to Miſery and torment for want of theſe pious arts of De<g ref="char:EOLhyphen"/>fence and ſafety. They govern themſelves by <hi>Inconſtant Principles,</hi> by <hi>Diverſities</hi> of Good<g ref="char:EOLhyphen"/>neſs, and are diſtracted by <hi>Multiplicity</hi> of Ob<g ref="char:EOLhyphen"/>jects. They ſteer their lives at <hi>Adventure.</hi> The <hi>Images,</hi> and repreſentations of a corrupted <hi>fancy,</hi> are the beſt Reaſon and Councel of their Reſolutions; which are purſued and executed by a torrent of Hot <hi>ungoverned</hi> Spirits: <hi>They grope in the dark and ſtagger like a drunken man,</hi> as it is in the 12. of <hi>Job. v.</hi> 25. <hi>And the ſteps of his ſtrength ſhall be ſtraitned, his own Counſel ſhall caſt him down.</hi> Job. 18.7. Pro. 4.18. Iſa. 1.56. But he that hath Choſen the Law of God for the rule of his life is inſtructed in all the moral Inſtruments of Peace. His paſſions are Tempe<g ref="char:EOLhyphen"/>rate, his Mind Inlarged, his Judgment True, his Reſolutions Steady, his Counſel Solid, his Confidence Unſhaken, his Courage Invincible, his Execution Vigorous; but above all, what<g ref="char:EOLhyphen"/>ſoever happens, he is ſatisfyed in himſelf that he hath endeavoured to doe the Beſt.</p>
+            <p n="3">3. <hi>And as Peace or tranquility of mind proceeds
+<pb n="31" facs="tcp:94734:18"/>from the Equality of our lives, and from the Moral Accompliſhments of the mind, ſo</hi> Laſtly, <hi>from Di<g ref="char:EOLhyphen"/>vine and ſecret communication of Joy and comfort, of Courage and aſſurance, of <g ref="char:V">Ʋ</g>nſpeakable Bliſs and Glory to the Soul.</hi>
+            </p>
+            <p>But this is the certain effect of Loving the Law of God. For the <hi>Law</hi> of <hi>God</hi> is <hi>God</hi> dilated and ſpread forth to us; And the <hi>pleaſures</hi> of <hi>God</hi> are not <hi>diſtinct</hi> from himſelf, but the <hi>Re<g ref="char:EOLhyphen"/>flexion</hi> upon, and the <hi>Enjoyment</hi> of his own <hi>Per<g ref="char:EOLhyphen"/>fections,</hi> The <hi>diſplay</hi> and <hi>exerciſe</hi> of his Wiſe<g ref="char:EOLhyphen"/>dom, Providence, Power and Goodneſs. For nothing <hi>without himſelf</hi> can entertain a being that is infinitely perfect. Whatſoever therefore is Good is Pleaſant, and in Perfect Good there is Perfect Pleaſure. The <hi>weakeſt diſpoſition</hi> therefore to the Life of God hath ſo much in it of <hi>Abſolute</hi> Delight as it <hi>partakes of the Divine nature.</hi> But he that <hi>Loves</hi> his Law, is the lively <hi>Image</hi> of God <hi>Himſelf,</hi> he deſires by His <hi>affecti<g ref="char:EOLhyphen"/>ons,</hi> he is moved by his Will, he acts by the meaſures of Infinite Goodneſs, he preſerves the Unity of his Soul with its Root and Principle, and ſhall therefore be filled with thoſe Divine. delights, which flow, and are Inſeparable from the Life of God.</p>
+            <p>
+               <hi>But the Complement and Perfection of this inward Peace and Joy,</hi>
+               <note place="margin">Job. 22.22. Pſam 17 15.</note> 
+               <hi>are the Secret Teſti<g ref="char:EOLhyphen"/>monies of the Favour of God, and the Irradiati<g ref="char:EOLhyphen"/>ons
+<pb n="32" facs="tcp:94734:19"/>of His Love.</hi> Theſe are the greateſt Rewards of Vertue upon earth; the <hi>Poſitive</hi> pleaſures of Religion. And though they do not flow, by Natural Cauſality from Obedience to the Law; Yet an humble expectation of ſuch a Bliſsful Preſence of God in the Soul, is both Reaſonable in it ſelf, and much encouraged in the Holy Scriptures.</p>
+            <p>For a man <hi>Regenerate</hi> and <hi>ſanctifyed</hi> by the Law of God <hi>approaches</hi> ſo <hi>near</hi> to <hi>his likneſs,</hi> Sympathizes ſo exactly with His being, lives <hi>His</hi> Life, does <hi>His</hi> actions, ſerves <hi>His</hi> purpoſes, and magnifies <hi>His</hi> glorie, that it is not Immo<g ref="char:EOLhyphen"/>deſt to expect the rays of the Divine light ſhould Shine into him, that God ſhould <hi>Encourage</hi> his vertue with <hi>Senſible</hi> expreſſions of <hi>His</hi> Love. That, according to his promiſes, <hi>He ſhould ma<g ref="char:EOLhyphen"/>nifeſt Himſelf unto Him,</hi>
+               <note place="margin">Joh. 14.27.15.11. Eph. 5.30.31 Pſal. 36.7.94.19.</note> 
+               <hi>And cauſe Him to drink of the rivers of His pleaſure.</hi> And whenſoever God doth thus <hi>unfold</hi> Himſelf and His <hi>Love</hi> to the Soul, it muſt needs be touched with Inex<g ref="char:EOLhyphen"/>preſſible <hi>Ecſtacy</hi> and <hi>Joy.</hi>
+            </p>
+            <p>And thus I have finiſhed the Third head of diſcourſe propoſed, and have endeavoured to prove that the Love of the Law of God will both diſpoſe us for, and Effectually operate to the Production of peace after all the ſeveral ways by which it is poſſible the effect ſhould be produced, and according to all our ſeveral Capacities of receiving it.</p>
+            <pb n="33" facs="tcp:94734:19"/>
+            <p n="4">IV. <hi>And ſo I proceed, as I propoſed, in the</hi> 4th. <hi>Place, To conſider the full and perfect agreement of this Peace, thus flowing from the Love of the Law of God to the Character of my Text, Great Peace,</hi> &amp;c.</p>
+            <p>And foraſmuch as nothing <hi>Greater</hi> can be ſaid of a Principle of Peace, than what I have endeavoured to prove true of the Love of the Law of God, namely, that it Operates after all the ways by which it is poſſible the <hi>effect</hi> ſhould be produced, and to the <hi>Higheſt Degrees</hi> the ſubject is <hi>Capable</hi> of receiving it; It would therefore now be ſuperfluous to collect and in-large any further upon the moſt Excellent qua<g ref="char:EOLhyphen"/>lities of Peace, and to ſhew their agreement with the Peace of my Text. I have anticipated my pains in this particular, by a full deſcription of its nature.</p>
+            <p>It is therefore unneceſſary, to remark, the <hi>
+                  <g ref="char:V">Ʋ</g>niverſality</hi> of its Influence; that every faculty will be <hi>Exerciſed</hi> with its proper actions and en<g ref="char:EOLhyphen"/>tertained with its Greateſt pleaſures. That the <hi>whole</hi> Soul is vigorouſly <hi>informed,</hi> rightly <hi>Ha<g ref="char:EOLhyphen"/>bituated,</hi> and filled up to the very brim.<note place="margin">Sen. de. Vit. Beat.</note> 
+               <hi>Habi<g ref="char:EOLhyphen"/>tum implevit, finibus ſe ſuis cinxit, &amp; nihil extra totum eſt, he hath all and there is nothing beyond it.</hi>
+            </p>
+            <p>It is needleſs to Commend the <hi>Steadyneſs,</hi> the <hi>Conſtancy</hi> and <hi>Duration</hi> of it; Becauſe that evi<g ref="char:EOLhyphen"/>dently
+<pb n="34" facs="tcp:94734:20"/>follows from the Nature of the thing. For love is the <hi>deepeſt root</hi> and therefore beſt ſe<g ref="char:EOLhyphen"/>cured againſt External violence.<note place="margin">Joh. 16.22. Rom. 8.37.</note> It is a Principle <hi>incorporated into our</hi> very <hi>frame</hi> and <hi>nature;</hi> the effects are therefore <hi>neceſſary,</hi> and its Vertue <hi>in<g ref="char:EOLhyphen"/>finite</hi> and <hi>Inexhauſtible.</hi> For Peace of mind, and the habit of Love to the Law of God, arc in order of time the <hi>ſame;</hi> and hardly ever to be Separated.</p>
+            <p>I ſhall therefore chuſe to improve the little time that is left, in diſcovering the Weakneſs, and Imperfection of all other Principles and Kinds of Peace whatever, which will render the Peace of my Text exceeding <hi>Great</hi> and <hi>Glorious,</hi> not onely in it <hi>ſelf</hi> but becauſe there is none <hi>Beſides</hi> it.</p>
+            <p>And there are three Diſpoſitions or habits of mind, which comprehend the reſt, and in eſpecial manner, Pretend to give us Peace.</p>
+            <list>
+               <item>
+                  <hi>The Firſt is that which is falſly called Liberty of mind, the baniſhment of Religion, and the fear of Inviſible Powers. Thinking, Speaking and Doing what we liſt.</hi>
+               </item>
+               <item>
+                  <hi>The Second is an obſequious ſuperſtition, or the Compenſation of a licentious life by External rites and ſervices.</hi>
+               </item>
+               <item>
+                  <hi>The Third is an <g ref="char:V">Ʋ</g>nconſidering, <g ref="char:V">Ʋ</g>nreflecting ſtate; a life of Mirth and Jollity.</hi>
+               </item>
+            </list>
+            <pb n="35" facs="tcp:94734:20"/>
+            <p>It is deplorable to obſerve how almoſt eve<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> man takes ſanctuary in one of theſe. And yet how <hi>ſadly</hi> we ſhall find them ſhrink from the <hi>teſt?</hi> How miſerable will they leave us in the days of <hi>Tryal,</hi> when we ſtand in the <hi>greateſt</hi> need of <hi>ſupport</hi> and Comfort?</p>
+            <p>
+               <hi>And Firſt, of the Peace which pretends to ariſe from the Liberty of our mind, from the baniſhment of Religion, and the fear of inviſible powers, from thinking, ſpeaking and doing what we liſt.</hi>
+            </p>
+            <p>Religion is accuſed of <hi>Depreſſing</hi> the minds of men, of <hi>reſtraining,</hi> our Liberty, that we dare not Court what we Love, nor Purſue what we Deſire, that we looſe the pleaſure of our preſent being, by the fear and care of our fu<g ref="char:EOLhyphen"/>ture ſtate. But he that is <hi>free</hi> from all apprehen<g ref="char:EOLhyphen"/>ſions of Religion, is Maſter of himſelf ſatisfy<g ref="char:EOLhyphen"/>ed in his own proceedings, all his Actions make the ſame Impreſſions upon his mind, he hath no Control, but his Will is both his Law, and his Delight.</p>
+            <p>But theſe are all <hi>Chymaera's</hi> and vain Imagi<g ref="char:EOLhyphen"/>nations. I have read of many Athieſts, that have diſcovered the Imperfection of their own Hypotheſis, <hi>in occaſional expreſſions</hi> of <hi>Fear;</hi> but I never read of any that in <hi>all</hi> points was true to his own Pretenſions.</p>
+            <p>For it is Impoſſible for a man of any wit to be <hi>throughly</hi> Satisfyed, not onely becauſe the
+<pb n="36" facs="tcp:94734:21"/>Arguments for God and Immortality are too ſtrong to be anſwered, but becauſe the <hi>negative</hi> part of the queſtion, <hi>viz.</hi> that there is no God, is <hi>Impoſſible</hi> to be Proved. And how ſhould we <hi>be Eaſy,</hi> till we are abſolutely ſecured, which we <hi>cannot be,</hi> againſt <hi>Eternal Miſery?</hi>
+            </p>
+            <p>But ſuppoſe we were <hi>throughly Satisfyed</hi> and utterly void of Fear; Yet an Atheiſt is the moſt <hi>miſerable</hi> man upon earth. What comfort can there be to live in the midſt of <hi>Fortuitous Moti<g ref="char:EOLhyphen"/>ons?</hi> If Inconſcious atoms, united themſelves into the Frame of the World, there is nothing hinders the parts that are ſtill in motion, but by a Caſual <hi>Violence</hi> and <hi>Agreement</hi> they may Separate the parts United, and put them to Shift about, till they Joyn together again in new appearances. So that, under theſe Appre<g ref="char:EOLhyphen"/>henſions, there can be no <hi>ſecurity</hi> of <hi>enjoying</hi> any thing. And any the moſt Excellent Being, though otherwiſe never ſo perfect, were yet miſerable without <hi>Immortality:</hi> But beſides this, the Atheiſt looks upon God and Religion in a <hi>Falſe Light,</hi> for the Duties commanded are our <hi>proper Liberty,</hi> the very beſt and freeſt <hi>actions</hi> of our <hi>nature,</hi> Which flow <hi>eaſily, ſecundo flumine,</hi> as we have heard. And God, or a Perfect Being, is not all Will, but infinite, <hi>Goodneſs,</hi> as well as Power.</p>
+            <pb n="37" facs="tcp:94734:21"/>
+            <p>The Exiſtence therefore of <hi>ſuch</hi> a Being is the moſt <hi>Deſirable</hi> thing that can be. It is the pre<g ref="char:EOLhyphen"/>ſence of <hi>all Perfection;</hi> It is a Security that all things happen Woll, that the world is governed by infinite Underſtanding, and faſtned upon ſure things. Here is Strength to confide in, Goodneſs and Power to hope in, and Immor<g ref="char:EOLhyphen"/>tality to expect hereafter.</p>
+            <p>But becauſe the <hi>Burthens</hi> of this preſent life are greater to every man than the <hi>Pleaſures</hi> of it; therefore no condition can be ſo <hi>miſerable</hi> as his, who hath nothing in his view but <hi>Eternal Night.</hi>
+            </p>
+            <p>
+               <hi>The Second pretended Principle of Peace is an obſequious ſuperſtition, or the Compenſation of a Li<g ref="char:EOLhyphen"/>centious life, by external Rites and Services.</hi> It was not therefore by Chance that the Pſalmiſt entitles thoſe to Peace, who <hi>Love</hi> the <hi>Law;</hi> but on purpoſe to anticipate the expectation of the <hi>Hypocrite.</hi>
+            </p>
+            <p>For the Peace of <hi>Superſtition</hi> is not free and Genuine, but a <hi>force</hi> upon our Underſtandings. We <hi>will Miſtake</hi> Religion, and reſolve of our ſelves that we are <hi>Happy</hi> without an <hi>Impartial view,</hi> or a <hi>ſerious Judgment</hi> of our State.</p>
+            <p>But no men are more Miſerable than theſe, becauſe they are <hi>afraid</hi> of <hi>themſelves,</hi> and dare not Search into the <hi>ſtrength</hi> of their own <hi>ſup<g ref="char:EOLhyphen"/>ports.</hi> But times of Tryall and Adverſity diſco<g ref="char:EOLhyphen"/>ver
+<pb n="38" facs="tcp:94734:22"/>their rottenneſs whether <hi>we will or no. They then ſhall find their Hope cut off, and that their truſt is in a Spiders web, they ſhall lean upon their houſe, but it will not Stand.</hi> Job. 8.14.15. <hi>and In the days of Calamity the ſinners in</hi> Sion <hi>are a<g ref="char:EOLhyphen"/>fraid, fearfulneſs hath ſurprized the hypocrite.</hi> Jer,<note place="margin">Iſa. 38.14.</note> 2.37. <hi>And every one,</hi> ſays our <hi>Saviour, that heareth theſe ſayings of mine and doth them not, ſhall be likned to a fooliſh man that built his houſe upon the ſand.</hi> Mat. 7.26.</p>
+            <p>There is no man indeed, can <hi>ſeriouſly expect</hi> the Favour of God upon the ſervices of an <hi>Hiſtrionical</hi> Verbal <hi>Piety;</hi> or without conformi<g ref="char:EOLhyphen"/>ty of our <hi>Affections</hi> to his Law. Our conſciences tell us that it is no better than <hi>Blaſphemy</hi> to <hi>praiſe</hi> His Wiſedom if we are not <hi>Governed</hi> by it, or his <hi>Goodneſs</hi> if we do <hi>not Imitate it.</hi> It is Pro<g ref="char:EOLhyphen"/>faneneſs and Affront to look obſequiouſly with eyes and hands lift up to God in our devotions, whom we <hi>Scorn</hi> and <hi>Revile</hi> in our Lives and Actions. In a word, no man <hi>Heartily</hi> believes that God will love <hi>impurity,</hi> or be reconciled to any thing that is contrary to His own <hi>eſſential Holyneſs.</hi>
+            </p>
+            <p>
+               <hi>The Laſt pretended Principle of Peace, is an unthinking, unreflecting ſtate, continuall Myrth and Jollity.</hi>
+            </p>
+            <p>But is this the peace of a man, which is but the pleaſure of a brute? Shall we be Content to
+<pb n="39" facs="tcp:94734:22"/>reſolve our Peace into that which <hi>deſtroys</hi> our <hi>Being? Is Stupefaction</hi> a <hi>Cure</hi> of <hi>Diſeaſes,</hi> a Healthful pleaſant ſtate? But thus it is,<note place="margin">Iſa. 5.12.</note> 
+               <hi>the Harp, the Viol, the Tabret and Pipe are in their Dwellings, and they regard not the Lord, nor the Operation of his hands.</hi> The Souls of theſe men are <hi>Congealed</hi> and <hi>benumm'd</hi> by ſenſuality; they are not at <hi>Eaſe</hi> but <hi>Stupid.</hi> The <hi>Principles</hi> of torment are many, but the <hi>Senſe</hi> and appre<g ref="char:EOLhyphen"/>henſion are for a time diverted by a Cheerful Madneſs.</p>
+            <p>But if any of us are under ſuch a <hi>Lethargy,</hi> let us not Glory in our <hi>Peace,</hi> but endeavour to recover our ſenſe betimes, or elſe the day approaches when our Conſciences ſhall be ſo <hi>Awakened,</hi> that nothing in heaven or earth ſhall ever <hi>Still</hi> them. The longer it hath been Smothered the more <hi>dreadful</hi> the <hi>flame</hi> will be when it doth <hi>break</hi> out. And thus we may Diſcern the Lameneſs and Imperfection of all other Habits and Principles that pretend to give us Peace. Which Magnifies the Principle and the Peace of my Text, becauſe the one is the <hi>only</hi> Spring from whence it Flows, and the other, the <hi>only</hi> Peace that is <hi>ſolid</hi> and <hi>Subſtantial.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Object. </seg>
+               </label> But if it be ſaid that Experience confutes the Argument of the Text; and Diſcovers the Weakneſs of this, as well as of thoſe other Prin<g ref="char:EOLhyphen"/>ciples; Inaſmuch as the moſt Pious men are of<g ref="char:EOLhyphen"/>ten
+<pb n="40" facs="tcp:94734:23"/>
+               <hi>depreſſed</hi> with the <hi>Misfortunes</hi> of the World; that the Vertuous as well as others, are <hi>af<g ref="char:EOLhyphen"/>fected</hi> with <hi>miſery</hi> and <hi>trouble.</hi>
+            </p>
+            <p>
+               <label type="milestone">
+                  <seg type="milestoneunit">Anſw. </seg>
+               </label> The Anſwer will be ſhort and eaſie, namely, that a Principle of Love to the Law, though it is full of Energy and Power, yet there muſt be a <hi>Concurrence</hi> of proper <hi>Qualifications</hi> in the Subject, before it is poſſible the Effect ſhould be Produced. We ſay of a medicine that it will <hi>Cure</hi> a <hi>Diſeaſe,</hi> but we ſuppoſe a <hi>due Applicati<g ref="char:EOLhyphen"/>on</hi> and a proper <hi>Diſpoſition</hi> in the Patient. Whoſoever Loves the Law of God, though his <hi>Temper</hi> be altered, yet he is ſtill <hi>but a Man.</hi> This new Principle doth not act him by <hi>vio<g ref="char:EOLhyphen"/>lence</hi> and <hi>Neceſſity,</hi> but in a way that is ſutable to a <hi>Free Agent.</hi> He ſtill remains Obnoxious to Frowardneſs and Inadvertency, to Miſtakes and Infirmities, to Temptations, Scruples, De<g ref="char:EOLhyphen"/>jection, Melancholy, and many other Habits, which hinder the free Emanation and efficacies of the Principle.</p>
+            <p>But, notwithſtanding all this, if the Subject, be Judicious and Inquiſitive, Watchful and Induſtrious, in a word, if he make it his buſi<g ref="char:EOLhyphen"/>neſs, he will quickly <hi>diſcern</hi> his <hi>advantages,</hi> and be able to <hi>draw</hi> out the <hi>Vertues</hi> of the root, and in time, his mind will be at <hi>Perfect eaſe</hi> and re<g ref="char:EOLhyphen"/>main <hi>Impregnable</hi> againſt all the <hi>Aſſaults of Evil.</hi>
+            </p>
+            <pb n="41" facs="tcp:94734:23"/>
+            <p>As for that part of the Peace of a good man which is Communicated to the Soul <hi>immediately</hi> by God himſelf, we are indeed more <hi>Paſſive</hi> in that than in the <hi>other;</hi> Yet even this requires a Sutable Diſpoſiti<g ref="char:EOLhyphen"/>on in the Patient beſides the ſincerity of his Love. For as our <hi>temper</hi> may be, it may exalt us above what is <hi>meet,</hi> Cheriſh Conceit, Nouriſh Vanity, and Divert our minds from the duties of our place, to a continual expectation of Extatick Joy. It is there<g ref="char:EOLhyphen"/>fore governed by the Infinite Wiſedom of God, and diſpenſed according as our <hi>Temper</hi> will bear it, and our <hi>needs require it.</hi> Times of <hi>great temptation,</hi> doubtful conflicts, prevailing fears, dejection and deſpondence, are <hi>proper</hi> ſeaſons for an <hi>Encouraging Manifeſtation</hi> of the Glory and Love of God.</p>
+            <p>And it is no <hi>diſparagement</hi> to the Doctrine of my Text, that Infinite Wiſedom ſhould diſpenſe that part of our Peace which is properly a Reward as our <hi>Temper</hi> will bear it, and our <hi>Needs require it.</hi>
+            </p>
+            <p>And thus the Principle may contain a Full and Uninterrupted Peace within it ſelf, though its Ver<g ref="char:EOLhyphen"/>tue, through accidental Impediments, ſhould not <hi>always</hi> and <hi>alike</hi> refreſh the Subject.</p>
+            <p>Yet nevertheleſs whoſoever truly Loves the Law of God is <hi>Habitually</hi> pleaſed and eaſie. Every good man hath a <hi>diſpoſition</hi> to <hi>Perfection,</hi> an Intereſt in the <hi>Love of God,</hi> and the <hi>joys of Heaven.</hi> Suppoſe him then a perſon of the <hi>weakeſt</hi> underſtanding, yet he finds the pleaſure of an <hi>equal life,</hi> and knows how
+<pb n="42" facs="tcp:94734:24"/>to reſign himſelf to <hi>Almighty Goodneſs. He has a well grounded hope that God is pleaſed with him, that his Enemies are Conquered, that he hath a title to great Treaſures,</hi>
+               <note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>er. in <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Car.</note> 
+               <hi>which will give him ſuch a peace and ſatis<g ref="char:EOLhyphen"/>faction, that he ſhall never Repent his Choiſe.</hi>
+            </p>
+            <p>In a word, our Joy and Peace are commonly pro<g ref="char:EOLhyphen"/>portioned to the <hi>Strength</hi> of our <hi>Love,</hi> the <hi>Abilities</hi> of our mind, the <hi>Temper</hi> of our Soul, and the Wiſe<g ref="char:EOLhyphen"/>dom of God, and he that deſires more is a ſtranger to the <hi>Wiſe oeconomy</hi> of the World, the Nature of man, and the General Reaſon of things.</p>
+            <p>
+               <hi>Applic.</hi> And now I could wiſh with the Phyloſo<g ref="char:EOLhyphen"/>pher, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>.<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>oc. de <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ace.</note> That it were as eaſieto perſwade to the <hi>Practice</hi> of <hi>Vertue</hi> as it is to <hi>Commend it.</hi>
+            </p>
+            <p>The proportion is as true as our Faculties, and the Motive is the <hi>Strongeſt</hi> that can be offered to the minds of men. It takes away the great Objection againſt Religion, that it Reſtrains our liberty, and contradicts our inclinations; that it is a Force and Violence to our nature and diſpoſition.</p>
+            <p>It is true indeed, ſo long as we are under the <hi>Power</hi> of <hi>vicious Habits</hi> we can ſee no <hi>Lovelineſs</hi> in the <hi>Law</hi> of <hi>God,</hi> nothing but Labour and ſelf-denyal. Such a Through Change in <hi>body, ſoul</hi> and <hi>ſpirit,</hi> as the Law requires, cannot be accompliſhed without a mighty Reſolution, and Unwearied Diligence. But if we are in <hi>Earneſt,</hi> our reluctance and averſati<g ref="char:EOLhyphen"/>on
+<pb n="43" facs="tcp:94734:24"/>will wear away. It is the property of Religi<g ref="char:EOLhyphen"/>on that it makes us <hi>New</hi> creatures, and gives us <hi>another</hi> Spirit, another Taſte and Relliſh of things.</p>
+            <p>Nothing therefore but Wretched <hi>Cowardiſe</hi> or ſtupid <hi>Incredulity,</hi> can hinder the effects of this diſ<g ref="char:EOLhyphen"/>courſe. <hi>What cutting and lancing are we content to endure for the preſervation of the body? What dangers ſo great that we do not Court for the advancement of our name and fortune?</hi> The hopes of glory and re<g ref="char:EOLhyphen"/>ward, make the Difficulties of an enterprize, to men that are <hi>Brave,</hi> the moſt <hi>cheerful</hi> Circumſtance.</p>
+            <p>They that would be great, muſt not content themſelves with <hi>Common</hi> Actions, but they muſt at<g ref="char:EOLhyphen"/>chieve ſuch things as ſhall demonſtrate their Wiſe<g ref="char:EOLhyphen"/>dom, Reſolution and Conduct.</p>
+            <p>It is true, it is impoſſible for a vicious man to <hi>Comprehend</hi> the <hi>inward ſenſe</hi> of this diſcourſe in <hi>every</hi> point. An Orator commending the Sweetneſs of a Roſe, may affect our <hi>Fancy,</hi> but he can never touch our <hi>Nerves</hi> with the <hi>Very</hi> Fragrancy it ſelf. <hi>Without Vertue the Pleaſures of Vertue are impoſſible to be Diſcerned.</hi>
+               <note place="margin">
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap> Hier. au. Car.</note> There is no <hi>Proportion</hi> between the Object and the Faculty. But in this as in other Caſes, we ought to be moved by the <hi>Probability</hi> of the Thing, and the <hi>Reports</hi> of <hi>Credible</hi> and <hi>Experienced</hi> perſons, who with <hi>one conſent,</hi> aſſure us, that, <hi>whoſoever enters into the School of wiſedom,</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, he ſhall be ſure to return, with the Advantages of
+<pb n="44" facs="tcp:94734:25"/>Peace and Happineſs,<note place="margin">
+                  <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Epict. <gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>nch.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. If you do not believe it <hi>Try,</hi> as <hi>Arrianus</hi> ſpeakes.</p>
+            <p>In a word, to ſtudy the Law of God till we like and love it, is to Proceed upon the <hi>beſt Reaſon,</hi> to Follow the ſteps of the <hi>Wiſeſt men,</hi> to purſue a <hi>Real good;</hi> to Adviſe with <hi>infinite Wiſedom</hi> and to <hi>Strengthen</hi> our ſelves with the beſt ſupports.</p>
+            <p>Theſe are the men that are never Amazed, Sur<g ref="char:EOLhyphen"/>prized or Vanquiſht, that can bear <hi>up boldly</hi> to a Storm, and Sail <hi>ſecurely</hi> before the Wind. Theſe are the only men that are fit to live amongſt <hi>Contingencies,</hi> that can make the <hi>beſt</hi> of all <hi>Events,</hi> and be happy in all conditions; till at laſt our Souls ſhall return to God that gave them: our Victories ſhall be Crowned with Glory, our Faith ſhall be perfected in Viſion, our Hope in Enjoy<g ref="char:EOLhyphen"/>ment, and our Peace Conſummate in the Full and Everlaſting Joys of Heaven.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:94734:25"/>
+         </div>
+      </body>
+   </text>
+</TEI>
